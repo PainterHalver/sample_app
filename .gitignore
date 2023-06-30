@@ -46,3 +46,4 @@ test/
 
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
+.idea/

@@ -1,0 +1,20 @@
+vi:
+  base_title: "Hướng dẫn Rails Sample App"
+  login: "Đăng nhập"
+  about: "Giới thiệu"
+  about_sentence: "Đây là trang giới thiệu Sample App."
+  contact: "Liên hệ"
+  contact_sentence_html: "Liên hệ với chúng tôi về Sample App từ %{contact_link}."
+  contact_page: "trang liên hệ"
+  news: "Tin tức"
+  footer:
+    sentence_html: "Sách %{tutorial_link} bởi %{author_link}."
+  home:
+    title: "Trang chủ"
+    heading: "Chào mừng đến với Sample App"
+    description_html: "Đây là trang chủ cho %{tutorial_link}."
+    sign_up_now: "Đăng ký ngay!"
+  help:
+    title: "Trợ giúp"
+    description_html: "Nhận trợ giúp về Ruby on Rails Tutorial tại %{tutorial_help_link}."
+    tutorial_help_page: "trang trợ giúp Rails Tutorial"
