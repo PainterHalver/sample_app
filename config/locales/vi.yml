@@ -18,3 +18,18 @@ vi:
     title: "Trợ giúp"
     description_html: "Nhận trợ giúp về Ruby on Rails Tutorial tại %{tutorial_help_link}."
     tutorial_help_page: "trang trợ giúp Rails Tutorial"
+  signup:
+    create_account: "Tạo tài khoản"
+    title: "Đăng ký"
+    the_form_contains: "Form có"
+    error: "lỗi"
+    welcome: "Chào mừng đến với Sample App!"
+  user_not_found: "Không tìm thấy user!"
+  activerecord:
+    models:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        confirmation: "Nhập lại mật khẩu"
