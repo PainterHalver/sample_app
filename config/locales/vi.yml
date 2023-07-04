@@ -1,6 +1,5 @@
 vi:
   base_title: "Hướng dẫn Rails Sample App"
-  login: "Đăng nhập"
   about: "Giới thiệu"
   about_sentence: "Đây là trang giới thiệu Sample App."
   contact: "Liên hệ"
@@ -33,3 +32,13 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         confirmation: "Nhập lại mật khẩu"
+  login:
+    title: "Đăng nhập"
+    new_user?: "Chưa có tài khoản?"
+    signup_now: "Đăng ký ngay"
+    invalid_email_password_combination: "Sai email hoặc mật khẩu!"
+  users: "Users"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  logout: "Đăng xuất"
+  account: "Tài khoản"
