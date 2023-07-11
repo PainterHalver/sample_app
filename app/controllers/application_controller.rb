@@ -1,6 +1,8 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   include SessionsHelper
+  include Pagy::Backend
+  before_action{@pagy_locale = params[:locale]}
   around_action :switch_locale
 
   private
