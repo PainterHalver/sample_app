@@ -1,4 +1,5 @@
 vi:
+  app_name: "Sample App"
   base_title: "Hướng dẫn Rails Sample App"
   about: "Giới thiệu"
   about_sentence: "Đây là trang giới thiệu Sample App."
@@ -23,6 +24,8 @@ vi:
     the_form_contains: "Form có"
     error: "lỗi"
     welcome: "Chào mừng đến với Sample App!"
+    mail_check: "Hãy kiểm tra email để kích hoạt tài khoản của bạn."
+    signup_failed: "Đăng ký thất bại!"
   user_not_found: "Không tìm thấy user!"
   activerecord:
     models:
@@ -38,6 +41,7 @@ vi:
     signup_now: "Đăng ký ngay"
     invalid_email_password_combination: "Sai email hoặc mật khẩu!"
     remember_me: "Nhớ tôi trên máy tính này"
+    not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email để lấy link kích hoạt."
   users:
     title: "Users"
     heading: "Tất cả user"
@@ -58,3 +62,11 @@ vi:
   delete: "xóa"
   confirm: "Bạn chắc chứ?"
   action_not_allowed: "Bạn không được phép thực hiện hành động này!"
+  mail:
+    account_activation: "Kích hoạt tài khoản"
+    hi_message: "Xin chào, %{name}"
+    welcome_sentence: "Chào mừng đến với Sample App! Click vào link bên dưới để kích hoạt tài khoản:"
+    activate: "Kích hoạt"
+  account_activation:
+    activated: "Kích hoạt tài khoản thành công!"
+    invalid: "Kích hoạt tài khoản thất bại: Link invalid!"
