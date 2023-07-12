@@ -1,4 +1,5 @@
 en:
+  app_name: "Sample App"
   base_title: "Ruby on Rails Tutorial Sample App"
   about: "About"
   about_sentence: "This is the about page for the sample app."
@@ -23,6 +24,8 @@ en:
     the_form_contains: "The form contains"
     error: "error"
     welcome: "Welcome to the Sample App!"
+    mail_check: "Please check your email to activate your account."
+    signup_failed: "Signup failed!"
   user_not_found: "User not found!"
   activerecord:
     models:
@@ -38,6 +41,7 @@ en:
     signup_now: "Sign up now"
     invalid_email_password_combination: "Invalid email or password!"
     remember_me: "Remember me on this computer"
+    not_activated: "Account not activated. Check your email for the activation link."
   users:
     title: "Users"
     heading: "All users"
@@ -59,3 +63,11 @@ en:
   confirm: "You sure?"
   action_not_allowed: "You are not allowed to perform this action!"
   not_correct_user: "You are not allowed to perform actions on this user!"
+  mail:
+    account_activation: "Account activation"
+    hi_message: "Hi, %{name}"
+    welcome_sentence: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
+  account_activation:
+    activated: "Account activated successfully!"
+    invalid: "Account activation failed: Invalid link!"
