@@ -42,6 +42,7 @@ en:
     invalid_email_password_combination: "Invalid email or password!"
     remember_me: "Remember me on this computer"
     not_activated: "Account not activated. Check your email for the activation link."
+    forgot_password: "Forgot password?"
   users:
     title: "Users"
     heading: "All users"
@@ -68,6 +69,23 @@ en:
     hi_message: "Hi, %{name}"
     welcome_sentence: "Welcome to the Sample App! Click on the link below to activate your account:"
     activate: "Activate"
+    password_reset: "Password reset"
   account_activation:
     activated: "Account activated successfully!"
     invalid: "Account activation failed: Invalid link!"
+  forgot_password:
+    title: "Forgot password"
+    submit: "Submit"
+    email_not_found: "Email address not found!"
+    email_sent: "Email sent with password reset instructions!"
+    reset_instruction_1: "To reset your password click the link below:"
+    reset_instruction_2: "This link will expire in two hours."
+    reset_instruction_3: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+    reset_password: "Reset password"
+    update_password: "Update password"
+    invalid_user: "User is invalid!"
+    expired: "Password reset has expired."
+    success: "Password has been reset successfully."
+    fail: "Error occured when reseting password."
+  errors:
+    cant_be_empty: "can't be empty"
