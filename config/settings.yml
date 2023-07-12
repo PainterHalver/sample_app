@@ -5,6 +5,7 @@ digit:
   length_140: 140
   length_255: 255
   size_5: 5
+  size_30: 30
   size_50: 50
   size_80: 80
   size_500: 500

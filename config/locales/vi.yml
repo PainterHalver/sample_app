@@ -100,6 +100,7 @@ vi:
       invalid_image_size: "phải ít hơn %{size}MB"
   posted_ago_html: "Được đăng %{time} trước"
   microposts:
+    plural: "Các bài đăng"
     created: "Đã tạo bài viết!"
     compose_new: "Viết bài đăng mới..."
     post: "Đăng"
@@ -108,3 +109,10 @@ vi:
     delete_failed: "Có lỗi xảy ra khi xóa bài đăng!"
     heading: "Các bài đăng"
   view_my_profile: "xem hồ sơ của tôi"
+  following: "đang theo dõi"
+  followers: "người theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Hủy theo dõi"
+  follow_success: "Theo dõi thành công!"
+  unfollow_success: "Hủy theo dõi thành công!"
+  relationship_not_found: "Không tìm thấy quan hệ!"
