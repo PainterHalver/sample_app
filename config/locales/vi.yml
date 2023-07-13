@@ -42,6 +42,7 @@ vi:
     invalid_email_password_combination: "Sai email hoặc mật khẩu!"
     remember_me: "Nhớ tôi trên máy tính này"
     not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email để lấy link kích hoạt."
+    forgot_password: "Quên mật khẩu?"
   users:
     title: "Users"
     heading: "Tất cả user"
@@ -67,6 +68,23 @@ vi:
     hi_message: "Xin chào, %{name}"
     welcome_sentence: "Chào mừng đến với Sample App! Click vào link bên dưới để kích hoạt tài khoản:"
     activate: "Kích hoạt"
+    password_reset: "Đặt lại mật khẩu"
   account_activation:
     activated: "Kích hoạt tài khoản thành công!"
     invalid: "Kích hoạt tài khoản thất bại: Link invalid!"
+  forgot_password:
+    title: "Quên mật khẩu"
+    submit: "Xác nhận"
+    email_not_found: "Không tìm thấy email!"
+    email_sent: "Đã gửi email cùng với hướng dẫn đặt lại."
+    reset_instruction_1: "Để đặt lại mật khẩu hãy click vào link bên dưới:"
+    reset_instruction_2: "Link có hiệu lực trong hai giờ."
+    reset_instruction_3: "Nếu bạn không yêu cầu đặt lại mật khẩu, hãy bỏ qua email này và mật khẩu bạn sẽ không đổi."
+    reset_password: "Đặt lại mật khẩu"
+    update_password: "Cập nhật mật khẩu"
+    invalid_user: "User không hợp lệ!"
+    expired: "Đã hết hạn đặt lại mật khẩu."
+    success: "Đặt lại mật khẩu thành công."
+    fail: "Có lỗi xảy ra khi đặt lại mật khẩu."
+  errors:
+    cant_be_empty: "không được để trống"
