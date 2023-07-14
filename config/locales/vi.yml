@@ -14,6 +14,7 @@ vi:
     heading: "Chào mừng đến với Sample App"
     description_html: "Đây là trang chủ cho %{tutorial_link}."
     sign_up_now: "Đăng ký ngay!"
+    feed_heading: "Các bài đăng"
   help:
     title: "Trợ giúp"
     description_html: "Nhận trợ giúp về Ruby on Rails Tutorial tại %{tutorial_help_link}."
@@ -29,12 +30,17 @@ vi:
   user_not_found: "Không tìm thấy user!"
   activerecord:
     models:
+      user: "Người dùng"
+      micropost: "Bài đăng"
     attributes:
       user:
         name: "Tên"
         email: "Email"
         password: "Mật khẩu"
         confirmation: "Nhập lại mật khẩu"
+      micropost:
+        content: "Nội dung"
+        image: "Ảnh"
   login:
     title: "Đăng nhập"
     new_user?: "Chưa có tài khoản?"
@@ -88,3 +94,17 @@ vi:
     fail: "Có lỗi xảy ra khi đặt lại mật khẩu."
   errors:
     cant_be_empty: "không được để trống"
+    max_file_size: "Tệp phải có dung lượng ít hơn %{size}MB"
+    messages:
+      invalid_image_format: "phải đúng kiểu dữ liệu ảnh"
+      invalid_image_size: "phải ít hơn %{size}MB"
+  posted_ago_html: "Được đăng %{time} trước"
+  microposts:
+    created: "Đã tạo bài viết!"
+    compose_new: "Viết bài đăng mới..."
+    post: "Đăng"
+    not_found_or_not_yours: "Bài đăng không tồn tại hoặc bạn không có quyền!"
+    deleted_successfully: "Xóa bài đăng thành công!"
+    delete_failed: "Có lỗi xảy ra khi xóa bài đăng!"
+    heading: "Các bài đăng"
+  view_my_profile: "xem hồ sơ của tôi"
