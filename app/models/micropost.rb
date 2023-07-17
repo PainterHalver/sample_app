@@ -1,8 +1,10 @@
 class Micropost < ApplicationRecord
   belongs_to :user
   has_one_attached :image
+
   scope :newest, ->{order created_at: :desc}
-  scope :by_user_id, ->(id){where user_id: id}
+  scope :by_user_ids, ->(ids){where user_id: ids}
+
   validates :user_id, presence: true
   validates :content, presence: true,
                       length: {maximum: Settings.digit.length_140}
